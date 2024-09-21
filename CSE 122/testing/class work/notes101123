@@ -1,0 +1,52 @@
+import java.util.List;
+
+public class notes101123 {
+    public static void main(String[] args) {
+        // write a method that sums up the values inside a queue
+        // attempt: QueueExample.java
+
+        // Write a method that sums up the values inside a Stack. 
+        // Same starter code as the solution to the Queue version of the problem,\
+        // but translating stack things to queue things.
+        // attempt: StackExample
+       
+        // TODO list program due 10/12
+        // FINAL: Tuesday, Dec 12th 12:30 - 2:30 PM (KNE120/KNE110)
+        //
+
+        // Stacks: retrieves elements in REVERSE order as added
+            // collection based on the principle of adding elements and retrieving them in opposite order
+            // push, pop, peek
+            // Stack<E> () : constructs new stack w elements of type E
+            // push(value) : places given value on top of stack
+            // pop() : removes top value from stack and returns it; throws EmptyStackException if stack empty
+            // 
+
+        // Queue: retreves elements in SAME order as added
+            // FIFO = First-In, First-Out
+            // add : given value at back of queue
+            // remove : removes value at front of queue adn returns; throws a NoSuchElementException if empty
+            // peek : returns front value from queue without remving it; returns null if queue is empty
+            // size : returns number of elements in queue
+            // isEmpty : reutnrs true if queue has no elements
+            
+            // Queue<Integer> queueTesting = new LinkedList<Integer>();
+            // queueTesting.add(42);
+            // queueTesting.add(-3);
+            // queueTesting.add(17);
+            // System.out.println(queueTesting.remove());
+
+        
+        // Abstract Data Types: spec of collection of data and 
+            // the operations that can be performed on it
+            // decribes what a collection does, not how it does it (not implementation)
+            // description of the idea of a data structure including what operations are avaliable
+        
+        // Interface: java construct that lets specify what methods a class should have
+
+        // Implemnetation: concrete code that meets spec interface
+        
+        
+
+    }
+}
